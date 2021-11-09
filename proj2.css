@@ -1,0 +1,85 @@
+body{
+	background-color:hsl(200,50%,60%);
+}
+div.footer{
+	width:40%;
+	background-color:hsl(15,70%,90%);
+	position:relative;	
+	top:150px;
+	left:25%;
+	padding:1%;
+	border:inset blue 3px;
+}
+td{
+	padding-top:5px;
+}
+input[type=text]
+{
+	border:inset 2px silver;
+	border-radius:4px;	
+	position:absolute;
+	left:150px;
+	font-family:Times new roman;
+}
+textarea{
+	resize:none;
+	background-color:hsl(170,30%,90%);
+	border-top-right-radius:10px; 
+	border-bottom-left-radius:10px; 
+}
+input[type=submit]
+{
+	width:100px;
+	height:25px;
+	border-top-right-radius:13px;
+	border-bottom-left-radius:13px;
+	border-bottom-right-radius:5px;
+	border-top-left-radius:5px;
+	background-color:hsl(200,40%,60%);
+	position:relative;
+	left:3%;
+	top:10px;
+}
+span{
+	font-size:40pt;
+	position:relative;
+	top:50px;
+	letter-spacing:2px;
+	color:orange;
+	color:lightblue;
+}
+p::first-letter,span.text{
+	font-size:150%;
+	color:hsl(1,20%,25%);
+}
+#test{
+	width:100px;
+	height:100px;
+	background-color:silver;
+	position:relative;
+	animation-name:example;
+	animation-duration:5s;
+	animation-delay:2s;
+	animation-iteration-count:1;
+	animation-timing-function:linear;
+}
+@keyframes example{
+	0%		{background-color:lightblue; left:0px; top:50%}
+	25%		{background-color:white; left:50%; top:0%}
+	50%		{background-color:hsl(70,100%,70%); left:100%; top:50%}
+	75%		{background-color:rgba(10,200,70); left:50%; top:100%}
+	100%	{background-color:lightgreen; left:0px; top:50%}
+}
+legend{
+	Color:hsl(270,70%,50%);
+}
+fieldset{
+	border-image:url(VC.JPG) 3 5 8% round;
+}
+
+.layer{
+	width:100%;
+	background-color:hsl(170,40%,70%);
+	border-top-right-radius:10em;
+	border-top:solid 4px hsl(170,90%,40%);
+}
